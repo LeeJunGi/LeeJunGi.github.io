@@ -1,0 +1,23 @@
+---
+title: 1. Markov Decision Process 
+author: Jungi Lee
+date: 2021-03-27 20:00:00 +0900
+categories: [Reinforcement Learning, Single-Agent]
+tags: [RL, Single-Agent]
+math: true
+mermaid: true
+---
+# 옜
+[1. 옜옜 옜](#옜옜-옜)  
+
+#
+- **State value function**: 지금부터 기대되는 return, 현재 state 이후부터 기대되는 return을 의미  
+\* \doteq means definition
+<center>$$E[f(x)] = \int f(x)g(x) \,dx$$</center>
+<center>$$V(s_t) \doteq \int_{a_{t}:a_{\infty}} G_tP(a_{t+1},s_{t+2},a_{t+2} \cdots |s_t) \, da_t:a_{\infty}$$</center>  
+<center>$$V(s_t) \doteq E_{\pi}[\sum_{k=0}^\infty \gamma^k R_{t+k+1} |S_t=s] = E_{\pi}[G_t|S_t=s]$$</center>  
+- **Action value function**: 지금 행동으로부터 기대되는 return
+<center>$$Q(s_t,a_t) \doteq \int_{s_{t+1}:a_{\infty}} G_tP(s_{t+1},a_{t+1},s_{t+2} \cdots |s_t,a_t) \, ds_{t+1}:a_{\infty}$$</center>
+<center>$$Q(s_t,a_t) \doteq E_{\pi} [G_t|S_t=s,A_t=a]$$</center>
+
+
