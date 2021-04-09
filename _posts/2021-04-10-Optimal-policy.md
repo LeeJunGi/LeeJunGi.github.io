@@ -10,7 +10,7 @@ mermaid: true
 # 목차  
 1. [In previous posting](#in-previous-posting)  
 1. [Assumption](#assumption)  
-1. [Optimal policy](#optimal policy)  
+1. [Optimal policy](#optimal-policy)  
 1. [Reference](#reference)
 
 # In previous posting   
