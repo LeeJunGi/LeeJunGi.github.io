@@ -32,7 +32,7 @@ $$Q^*$$가 최대가 되는 $$a_t$$를 고르면 $$P(a_t \mid s_t) = P^*(a_t \mi
 $$P(a_t \mid s_t)$$= Delta function이다.  
 ![Figure1][delta function]  
 그렇다면 $$a^*_t = \underset{a_t}{\operatorname{argmax}} Q^*(s_t,a_t)$$  
-Greedy action($$Q^*$$를 maximize하는 것이 가장 좋은 policy)를 한기 위해서 $$P^*(a_t \mid s_t) = \delta (a_t-a^*_t)$$이다. ($$a^*_t$$만큼 이동된 delta 함수)  
+Greedy action($$Q^*$$를 maximize하는 것이 가장 좋은 policy)를 하기 위해서 $$P^*(a_t \mid s_t) = \delta (a_t-a^*_t)$$이다. ($$a^*_t$$만큼 이동된 delta 함수)  
 *exploration 하지 않으면 optimal policy를 못찾으므로  $$\epsilon$$-greedy를 실행
 
 # Reference
