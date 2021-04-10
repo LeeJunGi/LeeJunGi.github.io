@@ -24,7 +24,7 @@ $$Q(s_t,a_t) = \int_{s_{t+1}:a_{\infty}} G_t P(s_{t+1},a_{t+1} \cdots \mid s_t, 
 $$= \int_{s_{t+1}:a_{\infty}} G_t P(a_{t+1},s_{t+2} \cdots \mid s_t, a_t,s_{t+1})P(s_{t+1} \mid s_t,a_t) \,ds_{t+1}:a_{\infty}$$  
 $$= \int_{s_{t+1}:a_{\infty}} G_t P(s_{t+2},a_{t+2} \cdots \mid s_{t+1},a_{t+1})P(a_{t+1} \mid s_{t+1}) P(s_{t+1} \mid s_t,a_t) \,ds_{t+1}:a_{\infty}$$  
 $$= \int_{s_{t+1}:a_{\infty}} G_t P(a_{t+2},s_{t+3} \cdots \mid s_{t+1}, a_{t+1})P(s_{t+2} \mid s_{t+1},a_{t+1}) P(a_{t+1} \mid s_{t+1}) P(s_{t+1} \mid s_t,a_t) \,ds_{t+1}:a_{\infty}$$  
-*$$P(s_{t+1} \mid s_t, a_t), P(s_{t+2} \mid s_{t+1}, a_{t+1}$$은 transition으로 환경에서 주어지고$ $$P(a_{t+1} \mid s_{t+1})$$은 policy이다.  
+*$$P(s_{t+1} \mid s_t, a_t), P(s_{t+2} \mid s_{t+1}, a_{t+1})$$은 transition으로 환경에서 주어지고$ $$P(a_{t+1} \mid s_{t+1})$$은 policy이다.  
 $$\Rightarrow$$ 그러므로 <span style="color:red">$$P^*(a_t|s_t)$$</span>를 찾는 것이 목표이다.
 
 # Optimal policy  
