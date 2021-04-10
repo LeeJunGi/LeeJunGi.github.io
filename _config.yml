@@ -84,7 +84,7 @@ img_cdn: ''
 avatar: ./assets/img/carrot.png 
 
 # boolean type, the global switch for ToC in posts.
-toc: true
+toc: true 
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.

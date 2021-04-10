@@ -6,8 +6,8 @@ categories: [Reinforcement Learning, Single-Agent]
 tags: [RL, Single-Agent]
 math: true
 mermaid: true
+toc: true
 ---
-
 
 # 목차  
 1. [Behavior policy and target policy](#behavior-policy-and-target-policy)  
