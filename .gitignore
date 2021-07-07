@@ -14,3 +14,5 @@ doc
 # npm dependencies
 node_modules
 package-lock.json
+
+run_add.sh
